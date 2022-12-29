@@ -14,8 +14,9 @@ def move_mouse():
         current_x += speed_x
         current_y += speed_y
         pyautogui.moveTo(current_x, current_y)
-    sleep(randint(1, 3))
 
+# example usage
 if __name__ == '__main__':
     while True:
         move_mouse()
+        sleep(randint(1, 3))
